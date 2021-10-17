@@ -19,8 +19,8 @@ mov x2, 16
 
 movz x1, 0x2
 movk x1, 0x5c11, lsl 16
-movk x1, 0xa8c0, lsl 32
-movk x1, 0x1300, lsl 48
+movk x1, 0x007f, lsl 32 ;localhost -> remotehost
+movk x1, 0x0001, lsl 48
 
 str x1, [sp, -16]!
 mov x1, sp
