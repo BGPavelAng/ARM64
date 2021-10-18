@@ -1,3 +1,5 @@
+;//////////Codigo por Belial Grimoire////////////
+
 .arch armv8-a
 .global _start
 
