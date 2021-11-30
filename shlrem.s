@@ -27,6 +27,7 @@ movk x1, 0x5c11, lsl 16
 movk x1, 0x007f, lsl 32
 movk x1, 0x0001, lsl 48
 
-Código completo.
+Código completo en...
+Complete code on...
 https://www.patreon.com/BGPavelAng
 Ayudame a seguir haciendo más de esto.
